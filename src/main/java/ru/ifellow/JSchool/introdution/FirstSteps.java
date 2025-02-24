@@ -77,7 +77,7 @@ public class FirstSteps {
         if (array.length == 0 || array.length == 1) return true;
 
         for (int i = 1; i < array.length; i++) {
-            if (array[i - 1] < array[i]) return false;
+            if (array[i - 1] <= array[i]) return false;
         }
 
         return true;
